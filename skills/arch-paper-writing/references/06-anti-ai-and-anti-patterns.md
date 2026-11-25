@@ -68,6 +68,7 @@ Replace every token below with a concrete verb, explicit quantifier, or plain hu
 7. **Cliché Problem Bridges & Extinct Roadmaps**: Ban `"However, prior works suffer from..."`, `"Despite its great potential, ..."`, and `"The rest of this paper is organized as follows. Section 2 describes..."` (embed section anchors in the contribution list instead).
 8. **Mid-Paper Textbook Recaps & Acronym Re-Expansion**: Inside Motivation, Design, or Evaluation, never re-expand acronyms already defined earlier in the paper and never prepend a standalone overview recapping the entire system. Enter directly inside the local technical thread.
 9. **Empty Section Preambles & Frankenstein Seams**: Ban 80–130 word hype throat-clearers before `X.1`, and keep register uniform across Intro, Design, and Evaluation.
+10. **Bullet-List & `\item \textbf{Label}:` Sprawl**: Do not fragment Motivation, Design, Evaluation, Related Work, or Conclusion into chatbot-style `\begin{itemize}\item \textbf{Topic}: ...` blocks. Top-venue exemplars use a median of `1.0` `itemize` block paper-wide (`0.0` outside Intro) and `98%` of Related Work and Conclusion sections are continuous prose. Fold gratuitous 2–4 item bullet blocks into continuous paragraphs using inline `(1)/(2)` or `(i)/(ii)` enumerations (or concise `\paragraph{}` lead-ins only for distinct long multi-paragraph subsections).
 
 ---
 

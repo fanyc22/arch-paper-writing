@@ -37,7 +37,7 @@ Total PDF length in modern architecture venues (~14–15 pages) reflects Referen
 6. **Place `Discussion / Limitations` After Evaluation**: Never discuss limitations or extensions *before* presenting experimental evidence. Place `Artifact Appendix` after References.
 
 ### Structural Anti-Patterns to Reject (Even When Seen in Top Venues)
-- **7-Bullet Contribution Walls**: Keep contributions to 3–4 bullets; half-page 6–7 bullet lists bloat Intro and repeat numbers three times before Page 3.
+- **7-Bullet Contribution Walls & Whole-Paper Bullet Sprawl**: Keep contributions to 3–4 bullets, and cap the entire 12-page manuscript at **`0–2` `itemize` blocks** (`<= 3` total block lists including `enumerate`, `3–4` items/block; across 152 top-venue papers, `77.6%` use `<= 2` bullet blocks and exemplars average only `1.25` blocks with `0.0` median outside Intro). Keep Related Work, Evaluation prose, and Conclusion list-free; prefer inline `(1)/(2)` or `(i)/(ii)` enumerations inside flowing paragraphs.
 - **Abstract-to-Intro Copy-Paste**: Never paste the Abstract's closing sentences verbatim into Intro's final paragraph.
 - **Mid-Paper Related Work + Stub Tail**: Do not place a primary Related Work section before Evaluation and follow Evaluation with a 7-line `Other Related Work` fragment.
 - **Title Without System Name**: Never omit your system name from the Title if the Abstract and body rely on it as the primary anchor.
@@ -137,7 +137,7 @@ Skip `§§1–5` above when drafting a 2–4 page architecture letter (such as I
 | **4. Related Work & Conclusion** | **`0.2–0.3p`** (~120–200w) | **`0.4–0.6p`** (~280–450w) | Either fold 2–3 direct structural contrasts into Sec. 1/3 and close with a **2–3 sentence (`45–75w`) Conclusion**, or pair one compact mechanism-grouped Related Work paragraph with a 2–3 sentence Conclusion. |
 
 ### Visual Budget & Universal Rules That Stay 100% Identical
-- **Visual Budget (`1–3` Visuals Max)**: Allocate **1–3 high-density figures/tables total**—typically one compact overview/mechanism diagram, one headline evaluation plot, and an optional small configuration or overhead table. Never pack 6 tiny plots or multi-page breakdowns into a 2–4p letter.
+- **Visual & List Budget (`1–3` Visuals Max, Default `0` Bullet Blocks)**: Allocate **1–3 high-density figures/tables total**—typically one compact overview/mechanism diagram, one headline evaluation plot, and an optional small configuration or overhead table. Never pack 6 tiny plots or multi-page breakdowns into a 2–4p letter. Default to **`0` `\begin{itemize}` bullet blocks** (max `1` short 2–3 item list only on 4-page papers); use inline `(1)/(2)` or `(i)/(ii)` enumerations inside prose instead.
 - **Universal Core (Unchanged Across All Lengths)**: Every prose, logic, detail, and visual craft rule still applies in full:
   - `03-detail-and-abstraction.md`: Earned-Detail criterion, General-before-Fast-Path, zero RTL inventory dumps, default `0` `Algorithm` blocks, zero fake math.
   - `04-paragraph-logic-and-cohesion.md`: Bounded Given-New (`35–48%`), Paragraph Shuffle, zero tail stutters or 3-hop stem chains, zero mirrored frames, balanced plain-term locking with natural pronouns and clean ellipsis.

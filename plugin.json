@@ -1,7 +1,7 @@
 {
   "name": "arch-paper-writing",
   "displayName": "Architecture Paper Writing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Empirical computer architecture & systems paper writing plugin (ISCA, MICRO, HPCA, ASPLOS, IEEE CAL): progressive-disclosure skill, universal anti-AI and stylometry rules, figure/caption specs, and two-pass adversarial self-audit.",
   "logo": "assets/logo.svg",
   "author": {
