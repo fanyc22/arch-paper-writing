@@ -20,7 +20,7 @@ Calibrate drafted and edited sections against these quantitative targets from cl
 | **Given-New lead-5 chaining** | **`35–48%`** | `31–52%` | **`< 28%` or `> 52%`** | Bounded target: **~55% of boundaries advance naturally without repeating a tail word**; `> 52%` signals literal tail-to-head stuttering. |
 | **Adjacent content Jaccard** | **`0.088–0.106`** | `0.081–0.113` | **`< 0.075`** | Repeat plain hardware nouns and verbs shamelessly instead of rotating synonyms. |
 | **Lexical diversity (`MATTR-100`)** | **`0.64–0.68`** | `0.63–0.70` | **`> 0.70`** | **Anti-thesaurus guard**: `MATTR > 0.70` signals elevated-register synonym cycling that erases human voice and weakens cohesion. |
-| **First-person `We/Our`** | `18–25` / 100 sents | `13–31` / 100 s | `< 10` / 100 s | Own design choices, hypotheses, and methodology actively (`We model`, `We find`). |
+| **First-person `We/Our`** | `18–25` / 100 sents | `13–31` / 100 s | `< 10` / 100 s | Use hardware actors for physical mechanics, **but keep natural authorial `We`** for design choices, experimental sweeps, and expectations (`We chose GRS because...`, `We first compare...`, `we expect...`)—avoid sterile zero-`We` spec-sheet narration. |
 | **Passive voice** | **`16–24` / 100 sents** | `15–26` / 100 s | **`< 15` or `> 27`** (or `>2` in a row) | Keep natural hardware-flow passive (`is fetched`, `are buffered`); avoid both dead passive walls and glossy active-only prose. |
 | **Initial logical transitions** | **`4–7` / 100 sents** | `3.0–7.5` / 100 s | **`0/100` (staccato) or `> 7.5`** | Keep `<= 1` explicit transition adverb per 2–3 paragraph excerpt; never insert non-contrastive `However,`; cap postpositive `, however,` at `<= 1`/section. |
 | **Quantitative anchors** | **`2.0–3.2` / 100 w** | `1.4–4.3` / 100 w | Intro/Design `> 5.0` | Dense in Evaluation; restrained and purposeful in Intro and Design. |
@@ -59,6 +59,7 @@ LLMs routinely "upgrade" plain engineering verbs and prepositions into slightly 
 | `exhibits` | `shows` / `has` |
 | `employs` / `utilizes` | `uses` |
 | `compels` | `forces` |
+| `absorb` *(metaphorical: slowdown/overhead/latency)* | `hide` / `tolerate` / `offset` / `mask` / `accommodate` |
 
 ### C. Concrete Microarchitectural Verbs
 Use specific physical verbs whenever describing hardware behavior:

@@ -27,7 +27,7 @@ Use this reference when drafting or restructuring individual sections of a full 
   1. **Move 1 — Domain Fact / Physical Invariant (`S1–S2`, 10–18w each)**: Open on a crisp architectural fact (*"Modern DRAMs have multiple banks to serve multiple memory requests in parallel."*).
   2. **Move 2 — Root-Cause Tension (`S3–S4`)**: Pivot sharply (`However,`, `Yet`) to why current mechanisms fail physically or structurally.
   3. **Move 3 — Key Insight (`S5–S6`)**: State the counter-intuitive observation or invariant that unlocks the solution.
-  4. **Move 4 — Concrete System & Mechanism (`S7–S8`)**: Name the system and summarize 2–3 concrete mechanisms in plain domain nouns.
+  4. **Move 4 — Concrete System & Mechanism (`S7–S8`)**: Bridge naturally from Move 3's observation or constraint into the proposal (`To exploit this slack, we propose...`, `Based on this observation, we introduce...`—never drop a cold, unbridged `We propose <SystemName>` after a long setup), then summarize 2–3 concrete mechanisms in plain domain nouns.
   5. **Move 5 — Restrained Headline (`S9–S10`)**: Report **1–2 (max 3) quantitative anchors** pairing benefit with overhead or baseline (*"reduces DRAM cost by 7% with performance within 1–5% of same-NUMA-node allocations"*).
   - *Mechanism-First Variant* (tools, ISAs, primitives): Omit Move 1 and open directly with `"We introduce <SystemName>, a ..."` (90–130w).
 - **Hard Bans**: Never open with `"In recent years"`, `"In the past decade"`, `"Recent advances in"`, `"With the rapid growth of"`, or `"X has revolutionized..."`. Never submit a zero-number abstract, never dump 6+ `%`/`×` metrics, and never claim `"oracle-level"` or `"always optimal"`.

@@ -40,6 +40,7 @@ Replace every token below with a concrete verb, explicit quantifier, or plain hu
 | **`consistently`** | Cheerleading adverb; fatal if any bar loses or ties. | Give the exact win ratio (`faster on 14 of 16 benchmarks`) and explain exceptions. |
 | **`conversely`** | Over-formal contrast marker. | Use `in contrast`, `whereas`, or `unlike`. |
 | **`mitigate`** | Over-applied outside security/reliability. | Reserve for security/RowHammer/faults; otherwise use `reduce`, `hide`, `mask`, `amortize`, `cut`. |
+| **`absorb`** *(metaphorical)* | LLM pet metaphor for latency/slowdown/overhead (`absorb the slowdown`). | Use concrete architecture verbs (`hide`, `tolerate`, `offset`, `mask`, `accommodate`). |
 | **`solely`** | Inflated substitute for plain English. | Use `only`. |
 | **`inherently`** | Hand-waves away physical causes. | State the physical reason (`because banks share global I/O drivers`). |
 | **`essential` / `crucial`** | Asserts importance without proof. | Use `required`, `needed`, or show the ablation drop without the component. |
@@ -86,6 +87,7 @@ Applying anti-AI rules rigidly creates a distinct, instantly detectable "try-har
 | **6. Checklist Stiffness & Stacked Hyphen Compounds** | Flattening every sentence to `16–22w` (`SD < 7.5w`) while juggling rules, or packing prose `-10%` into dense stacks (`"eviction-induced miss-rate overhead"`). | Produces stiff, uniform cadence and telegraphic phrasing. | Stay relaxed (`~100%` pacing, **`SD 8.5–11.5w`**): let complex explanations run naturally to `26–38w` next to plain `8–13w` facts, and unpack stacked compounds into plain phrases. |
 | **7. Elevated-Register Thesaurus Swaps** | Scrubbing Tier-1 words but still writing `serves as`, `built atop`, `permits`, `attains`, `prior to`, `alongside`, `undermine`, `resilience`, `yields`, `exhibits`, `employs`, `compels`. | Keeps `MATTR-100 > 0.70` and exposes LLM formality. | Use plain core English (`is`, `built on`, `allows`, `gets`, `before`, `with`, `hurt`, `protection`, `gives`, `shows`, `uses`, `forces`) and repeat core terms freely. |
 | **8. Robotic Plain-Word Repetition (Anti-Synonym Over-Correction)** | Starving natural pronouns or ellipsis by literally repeating the same noun or verb 3+ times across one or two clauses (`"As density drops, energy drops below X and drops below Y"`, `"Local TLBs... yet local TLBs"`). | Over-corrects `MATTR` downward and sounds stilted and synthetic rather than plainspoken. | Keep natural pronouns (`it`, `they`, `its`) when the antecedent is unambiguous, use clean ellipsis (`"energy falls below X and then Y"`), or allow one plain shift (`drops -> falls`) while still banning 4+ verb cycles. |
+| **9. Sterile Zero-`We` Spec-Sheet Voice & Cold Proposal Drops** | Erasing all authorial `We` in Design rationale / Evaluation (`Figure 8 compares... SCNN can be expected to...`, `Simba uses GRS...`) OR opening a naked `We propose X` without bridging from the preceding observation. | Reads like a disembodied datasheet or disjointed bullet compilation rather than an engineer narrating choices and results. | Use hardware actors for physical behavior, keep natural `We` for design choices, sweeps, and expectations (`We chose GRS because...`, `We first compare...`, `we expect...`), and bridge proposals cleanly (`To exploit this slack, we propose...`). |
 
 ---
 
@@ -110,6 +112,7 @@ Applying anti-AI rules rigidly creates a distinct, instantly detectable "try-har
 | `underscores the paramount importance of X` | `shows that X dominates latency (62% of stalls)` |
 | `diverse workloads / comprehensive evaluation` | `18 SPEC CPU2017 and GAP workloads` / `evaluated on 158 traces` |
 | `enhances / facilitates / mitigates latency` | `raises IPC by 21%` / `routes messages` / `hides memory latency` |
+| `slack can absorb the slowdown` | `slack hides / tolerates / offsets the slowdown` |
 | `serves as / built atop / permits / attains` | `is` / `built on` / `allows` / `reaches` |
 | `prior to / alongside / yields / exhibits / employs` | `before` / `with` / `gives` / `shows` / `uses` |
 | `..., leaving / totaling / violating / ensuring ...` | `. This step leaves...` / `for a total of 134 workloads.` / `and violates...` |
