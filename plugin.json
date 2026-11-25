@@ -1,0 +1,21 @@
+{
+  "name": "arch-paper-writing",
+  "displayName": "Architecture Paper Writing",
+  "version": "1.0.0",
+  "description": "Empirical computer architecture & systems paper writing plugin (ISCA, MICRO, HPCA, ASPLOS, IEEE CAL): progressive-disclosure skill, universal anti-AI and stylometry rules, figure/caption specs, and two-pass adversarial self-audit.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "fanyc22",
+    "url": "https://github.com/fanyc22"
+  },
+  "homepage": "https://github.com/fanyc22/arch-paper-writing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanyc22/arch-paper-writing"
+  },
+  "suggestedPrompts": [
+    "Outline a 12-page ISCA/MICRO paper from my problem statement and key evaluation numbers",
+    "Polish this draft section to remove AI phrasing, RTL sprawl, and awkward sentence transitions",
+    "Design figure specs and self-contained 15-35w captions for my architecture diagram and evaluation plots"
+  ]
+}
